@@ -1,0 +1,38 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #ccc;
+    color: #222;
+}
+
+header {
+    flex-basis: 400px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    padding: 30px 0;
+    background: blue;
+    ;
+}
+
+aside {
+    min-width: 240px;
+    background: orange;
+}
+
+section.page {
+    flex-grow: 1;
+    background: red;
+}
+
+footer {
+    padding: 10px 0;
+    background: black;
+    color: #E4A044;
+    text-align: center;
+}
