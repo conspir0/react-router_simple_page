@@ -9,7 +9,8 @@
 }
 
 header {
-    flex-basis: 400px;
+    height: 400px;
+    overflow: hidden;
 }
 
 main {
