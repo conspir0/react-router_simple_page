@@ -1,0 +1,29 @@
+nav {
+    padding: 10px;
+}
+
+nav>ul>li>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -.25px;
+    transition: .1s linear;
+    background: #fff;
+    color: #000;
+}
+
+nav>ul>li {
+    background: #E4A044;
+}
+
+nav>ul>li>a.active {
+    transform: translate3d(5px, 0, 0);
+    color: #E4A044;
+}
+
+nav>ul>li>a:hover {
+    transform: translate3d(5px, 0, 0);
+    color: #000;
+}
