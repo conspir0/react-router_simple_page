@@ -4,6 +4,7 @@ import HomePage from "../../pages/HomePage";
 import ProductsPage from "../../pages/ProductsPage";
 import ContactPage from "../../pages/ContactPage";
 import AdminPage from "../../pages/AdminPage";
+import LoginPage from "../../pages/LoginPage";
 import ErrorPage from "../../pages/ErrorPage";
 
 const Page = props => {
@@ -13,6 +14,7 @@ const Page = props => {
       <Route path="/products" component={ProductsPage} />
       <Route path="/contact" component={ContactPage} />
       <Route path="/admin" component={AdminPage} />
+      <Route path="/login" component={LoginPage} />
       <Route component={ErrorPage} />
     </Switch>
   );
