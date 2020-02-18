@@ -1,0 +1,15 @@
+.btn {
+    display: flex;
+    margin: 20px auto;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px 30px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn--back {
+    background: rgba(0, 0, 0, .1);
+    color: #000;
+}

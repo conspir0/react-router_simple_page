@@ -15,6 +15,7 @@ class LoginPage extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
+
     this.setState({
       user: "",
       pass: ""

@@ -1,0 +1,9 @@
+.product-details {
+    padding: 10px 20px 50px;
+}
+
+.product-details__title {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #E4A044;
+    text-transform: uppercase;
+}

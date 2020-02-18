@@ -1,0 +1,23 @@
+.product {
+    position: relative;
+    display: inline-block;
+    width: calc(50% - 20px);
+    height: 300px;
+    margin: 10px;
+    background: rgba(0, 0, 0, .1);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-decoration: none;
+}
+
+.product:hover .product__title {
+    font-weight: bold;
+}
