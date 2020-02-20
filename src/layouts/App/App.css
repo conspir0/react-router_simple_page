@@ -26,13 +26,6 @@ section.page {
     flex-grow: 1;
 }
 
-footer {
-    padding: 10px 0;
-    background: black;
-    color: #E4A044;
-    text-align: center;
-}
-
 ul {
     list-style-type: none;
 }

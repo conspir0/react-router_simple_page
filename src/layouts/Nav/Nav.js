@@ -25,7 +25,7 @@ const list = [
   }
 ];
 
-const Nav = props => {
+const Nav = () => {
   const navList = list.map(item => {
     return (
       <li key={item.name}>
